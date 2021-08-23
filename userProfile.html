@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/852b76c1d7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>User Profile</title>
+
+</head>
+<body>
+    <div class="modal">
+        <img src="img/avataaars.png" alt="">
+        <div class="close"></div>
+    </div>
+    <div id= "nav">
+        <div class="headercontainer">
+            <router-link to =/about><p class="telephone"><i class="fas fa-phone-alt"></i>+1-800-273-TALK</p></router-link>
+            <router-link to ="/about"><p class="chatbotbutton">Chat</p></router-link>
+            <router-link to = "/signin"><p class="resourcebutton">Resources</p></router-link>
+            
+            <router-link to ="/"><p class = "homebutton">Home</p></router-link>
+            <img src="img/logo.png" width="290" height="55">
+        </div>
+        </div>
+        
+    <div class="container">
+        <div class="card">
+            <div class="header"></div>
+                <a href="#" class="mail">
+                    <i class="far fa-envelope"></i>
+                </a>
+                <div class="main">
+                    <div class="image"> 
+                        <div class="hover">
+                            <i class="fas fa-camera fa-2x"></i>
+                        </div>
+                    </div>
+                    <h3 class="name">Madison Eve, 23</h3>
+                    <h3 class="sub-name">jane123@gmail.com, Computer Science, UCLA</h3>
+                </div>
+                <div class="saved">
+                    <div class="saved-text">
+                        <a href="#" class="like-button">
+                            <i class="fa fa-thumbs-up"></i>
+                        </a> 
+                        <h3 class="like-text">1.7 likes</h3>
+    
+                        <a href="#" class="star-button">
+                            <i class="fa fa-star"></i>
+                        </a>
+                        <h3 class="star-text">16 Suggested items</h3>
+                        <a href="#" class="comment-button">
+                            <i class="fa fa-comments"></i>
+                        </a>
+                        <h3 class="comment-text">270 mins.</h3>
+                    </div>
+                </div>
+                <div class="mood">
+                    <div class="mood-content">
+                        <h3 class="title">Mood Tracker:</h3>
+                    </div>
+                    <div class="mood-image">
+                        <img src="img/Group.png" 
+                        width="380"
+                        height="280"/>
+                    </div>
+                </div>
+                <div class="activity">
+                    <div class="activity-content">
+                        <h3 class="title">Activity Tracker:</h3>
+                    </div>
+                    <div class="activity-image">
+                        <img src="img/Chart.png"
+                        width="500"
+                        height="300"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
